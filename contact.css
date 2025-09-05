@@ -1,0 +1,128 @@
+*{ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+  
+}
+.header{
+    background-color: #aac8ff;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+  flex: 1;
+}
+header{
+    padding: 15px 40px;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.brand{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.nav-links a{
+    color: #0b0b0b;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 700;
+    align-items:center;
+}
+.btn {
+    background-color:white;
+    
+    padding: 8px 16px;
+    border-radius: 7px;
+    font-weight: 700;
+    color:black;
+    justify-content: left;
+   
+}
+.btn:hover{
+    background-color: #2d62c4;
+}
+footer {
+   
+  bottom:0;
+  left:0;
+  display: flex;
+  justify-content: space-between;
+  background: #aac8ff;
+  padding: 15px 40px;
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px;
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.contact-form h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #0077cc;
+
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+.contact-image {
+  flex: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image img {
+  max-width: 300px;
+  border-radius: 12px;
+  border: 3px solid #0077cc;
+}
+textarea {
+    resize: none;
+}

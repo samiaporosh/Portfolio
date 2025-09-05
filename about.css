@@ -1,0 +1,114 @@
+*{ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+  
+}
+.header{
+    background-color: #aac8ff;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+  flex: 1;
+}
+header{
+    padding: 15px 40px;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-links a{
+    color: #0b0b0b;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 700;
+    align-items:center;
+}
+.btn {
+    background-color:white;
+    padding: 8px 16px;
+    border-radius: 7px;
+    font-weight: 700;
+    color:black;
+    justify-content: left;
+   
+}
+.btn:hover{
+    background-color: #2d62c4;
+}
+footer {
+  bottom:0;
+  left:0;
+  display: flex;
+  justify-content: space-between;
+  background: #aac8ff;
+  padding: 15px 40px;
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+}
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 0px;
+  padding: 10px 14px;
+  background: #aac8ff;
+  color: black;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.social-links a:hover {
+  background: #2d62c4;
+}
+.game {
+  margin-top: 15px;
+}
+
+.game a {
+  display: inline-block;
+  margin: 0 0px;
+  padding: 6px 8px;
+  background: #aac8ff;
+  color: black;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.game a:hover {
+  background: #2d62c4;
+}
